@@ -1,0 +1,66 @@
+/*header（头部） */
+.header{
+       height:90px; 
+        background-color: #333333;
+       font-size: 34px;
+       margin-bottom: 35px;
+}
+.header a{
+    display:inline-block;
+    color:#FFF;
+}
+.turn_off{
+    height:35px;
+    margin:28px 15px -6px 25px;
+    padding-right:25px;
+    border-right: 1px solid #1f292a;
+    overflow: hidden;
+}
+
+.more_func{
+         display: block;
+         position: absolute;
+         right:48px;
+         top:30px;
+}
+.more_func_ul li{
+     margin-bottom: 6px;
+     border:3px solid #FFF;
+}
+
+
+/*底部 css*/
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+     overflow: hidden;
+     font-size: 26px;
+}
+.footer button{
+    width: 33.3%;
+    height:100px;
+    float:left;
+    border:none;
+    cursor: pointer;
+    background-color: #1f292a;
+   border-right: 1px solid #1c1c1b;
+   box-shadow: 5px 0px 5px #000;
+}
+button a:hover{
+       text-decoration: none;
+}
+.btn1{
+    background:url(../images/yy-icon.png) 28% center no-repeat;
+    
+}
+.btn2{
+    background:url(../images/dd-icon.png) 28% center no-repeat;
+}
+.btn3{
+    background:url(../images/my-icon.png)28% center no-repeat;
+}
+button.btn_active{
+   background-color: #ed9513
+}

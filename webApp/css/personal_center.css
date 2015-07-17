@@ -1,0 +1,199 @@
+
+/*整体框架*/
+body{background-color:#eeedec ;color:#FFF; font-family: "微软雅黑";}
+a{color:#FFF;}
+.contener{
+      width:100%;
+       margin:20px auto; 
+       position: relative;
+      
+}
+
+
+/*主体内容 css*/
+.main_content{
+     overflow: hidden;
+      
+}
+/**个人信息**/
+.user_message{
+    height:112px;   
+    padding:25px 34px  25px  25px;
+     margin-bottom:35px;
+     background-color: #FFF;
+     position:relative;
+
+}
+.user_message a{
+    display:block;
+    background:url(../images/arrow.png) right center no-repeat;
+}
+.message{
+    width: 110px;
+    height:110px;
+    padding:8px 3px 3px 8px;
+    border:1px solid #dbdcdc;
+    -ms-border-radius:50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+
+}
+.message .message_img{
+    -ms-border-radius:50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;  
+}
+.message_cont{
+    color:#bbbbbb;
+    font-size:24px;
+    line-height: 40px;
+    position: absolute;
+    left:160px;
+    top:45px;
+}
+.message_cont h3{
+    font-size: 28px;
+    font-weight: normal;
+    color:#000;
+}
+
+/*优惠卷*/
+.Coupon{
+    
+     height: 90px;
+     line-height: 90px;
+     font-size: 26px;
+     padding:0 34px 0 36px;
+      background-color: #FFF;
+}
+.Coupon a{
+    display: block;
+    color:#595757;
+    background:url(../images/arrow.png) right center no-repeat;
+}
+.Coupon a:hover{
+   text-decoration: none;
+}
+.Coupon_span{
+    color:#9b9b9b;
+    float:right;
+    padding-right:43px;
+}
+
+
+
+/*修改个人资料*/
+.message_cont h3{
+    margin-top: 20px; 
+}
+.Coupon{
+    height:180px;
+}
+.Coupon_a{
+    border-top:1px solid #dbdcdc;
+}
+
+
+
+
+/*修改昵称*/
+.nameForm{
+    margin:35px 30px 0 30px;
+    width:95.5%;
+}
+textarea{
+    resize:none;
+}
+#nickname{
+    width: 97.5%;
+    height:134px;
+    border:1px solid #FFF;
+   
+    font-size: 30px;
+    color:#9e9e9f;
+    line-height: 36px;
+    border-radius: 5px;
+    padding:15px;
+}
+#submit{
+    width: 100%;
+    margin-top:15px;
+    height:80px;
+    font-size: 26px;
+    color:#FFF;
+    border:1px solid #FFF;
+    border-radius: 5px;
+    background-color: #ed9513;
+}
+
+
+
+/*验证手机号码*/
+.verify_PN{
+    width:85%;
+    border:1px solid #FFF;
+    border-radius:3px;
+    font-size:26px;
+    padding:25px;
+    margin:0 auto;
+    background-color: #FFF;
+}
+.verify_PN table{
+    width:100%;
+}
+.verify_PN td input{
+    height:64px;
+    line-height: 64px;
+    margin-bottom: 13px;
+    border:none;
+}
+.verify_PN tr{
+  border:0;
+}
+.tab_td1{
+  height:64px;
+    line-height: 64px;
+  font-size:30px;
+  
+  color:#252526;
+  overflow: hidden;
+}
+.tab_td1 a{
+   display:block;
+   float: right;
+   margin-top:17px;
+  width:32px;
+   height: 32px;
+  
+   background:url(../images/x2.png) right center no-repeat;
+}
+.tab_td2 input{
+  width:98.5%;
+  background-color: #eeedec;
+  color:#9e9e9f;
+  padding-left:15px;
+}
+.tab_td3 input{
+      width:53.5%;
+      background-color: #eeedec;
+      color:#9e9e9f;
+      padding-left:15px;
+}
+.tab_td3 button{
+  width:45%;
+  float:right;
+      height:64px;
+     line-height: 64px;
+     text-align: center;
+      background-color: #ed9513;
+      color:#FFF;
+      border:none;
+}
+.tab_td4 input{
+    width:100%;
+    margin-top:46px;
+    background-color: #ed9513;
+    color:#FFF;
+}
